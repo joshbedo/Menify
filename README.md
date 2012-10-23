@@ -9,7 +9,9 @@ example
 
 basic setup
 ------
+
 HTML:
+
 	<header>
 			<h1><a href="#">Site Title</a></h1>
 			<nav id="mainmenu">
@@ -42,6 +44,7 @@ HTML:
 	</section>
 	
 JavaScript:
+
  	<script type="text/javascript" src="menify.js"></script>
  	<script type="text/javascript">
  		$(function(){
