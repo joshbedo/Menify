@@ -9,6 +9,37 @@ example
 
 basic setup
 ------
+	<header>
+			<h1><a href="#">Site Title</a></h1>
+			<nav id="mainmenu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+		
+	<section id="footer">
+		<footer>
+			<nav id="footermenu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Portfolio<t/a></li>
+					<li class="hasChildren"><a href="#">About</a>
+						<ul class="level2">
+								<li><a href="#">Submenu</a></li>
+								<li><a href="#">Submenu</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			&copy; Copyright Year by Author. All Rights Reserved.
+		</footer>
+	</section>
+	
+	
  	<script type="text/javascript" src="menify.js"></script>
  	<script type="text/javascript">
  		$(function(){
