@@ -5,6 +5,7 @@ Menify is a lightweight script I put together for converting web app menus into 
 
 example
 =======
+<a href="http://imstillreallybored.com/github/menify/">DEMO</a>
 
 basic setup
 ------
@@ -24,7 +25,6 @@ basic setup
 
 And now you have your mobile menu, huzzah!
 
-<a href="http://reverecustomsigns.com/">DEMO</a>
 
 license
 =======
