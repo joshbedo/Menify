@@ -10,7 +10,6 @@
 			menified = $('<select class="' + opts.menuClass + '" style="display:none" />'),
 			$this = '#' + $(this).attr('id'),
 			obj = $(this);
-			console.log($(this).attr('id'));
 
 			$($this + ' ul li:not(ul.level2 li)').each(function(){
 				var name = '';
@@ -36,10 +35,9 @@
 					submenu += '<option value="' + link + '">' + name + '</option>';
 				}
 			});
-			console.log(submenu);
+
 			$(menified).append(submenu);
 			//if(opts.container) { obj.parent(opts.container).append(menified) }else{ obj.parent().append(menified); }
-			console.log(opts, this);
 			if(opts.container){ menified.appendTo(opts.container); }else{ obj.parent().append(menified); }
 
 			$(window).resize(function(){
