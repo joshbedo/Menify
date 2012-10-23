@@ -25,7 +25,6 @@
 					$(this).find('ul.level2 li').each(function(){
 						var subname = $(this).children('a').text();
 						var sublink = $(this).children('a').attr('href');
-						alert(subname);
 						submenu += '<option value="' + sublink +'">' + subname + '</option>';
 
 					});
