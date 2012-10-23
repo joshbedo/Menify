@@ -1,7 +1,7 @@
 Menify
 ======
 
-Menify is a lightweight 1.6kb script I put together for converting web app menus into mobile friendly menus easily
+Menify is a lightweight 1.6kb jQuery script I put together for converting web app menus into mobile friendly menus easily
 
 example
 =======
