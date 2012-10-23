@@ -40,7 +40,7 @@
 			$(menified).append(submenu);
 			//if(opts.container) { obj.parent(opts.container).append(menified) }else{ obj.parent().append(menified); }
 			console.log(opts, this);
-			if(opts.container){ alert('true');obj.parent().append(menified) }else{ obj.parent().append(menified); }
+			if(opts.container){ menified.appendTo(opts.container); }else{ obj.parent().append(menified); }
 
 			$(window).resize(function(){
 				if($(window).width() < 600){
