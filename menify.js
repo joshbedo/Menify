@@ -20,11 +20,12 @@
 					name = $(this).children('a').text();
 					link = $(this).children('a').attr('href');
 
-					submenu = '<optgroup label="' + name + '">';
-					submenu += '<option value="' + link + '">' + name + '</option';
+					submenu += '<optgroup label="' + name + '">';
+					submenu += '<option value="' + link + '">' + name + '</option>';
 					$(this).find('ul.level2 li').each(function(){
 						var subname = $(this).children('a').text();
 						var sublink = $(this).children('a').attr('href');
+						alert(subname);
 						submenu += '<option value="' + sublink +'">' + subname + '</option>';
 
 					});
@@ -37,7 +38,7 @@
 			});
 
 			$(menified).append(submenu);
-			//if(opts.container) { obj.parent(opts.container).append(menified) }else{ obj.parent().append(menified); }
+
 			if(opts.container){ menified.appendTo(opts.container); }else{ obj.parent().append(menified); }
 
 			$(window).resize(function(){
